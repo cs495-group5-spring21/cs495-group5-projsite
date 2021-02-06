@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
+* Start Bootstrap - page v6.0.2 (https://startbootstrap.com/theme/resume)
 * Copyright 2013-2020 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
@@ -10086,7 +10086,7 @@ p.lead {
   font-size: 3rem;
 }
 
-section.resume-section {
+section.page-section {
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -10095,7 +10095,7 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
-section.resume-section .resume-section-content {
+section.page-section .page-section-content {
   width: 100%;
   /*padding-right:5rem;*/
 }
@@ -10105,12 +10105,12 @@ section.resume-section .resume-section-content {
 }
 
 @media (min-width: 768px) {
-  section.resume-section {
+  section.page-section {
     min-height: 100vh;
   }
 }
 @media (min-width: 992px) {
-  section.resume-section {
+  section.page-section {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
