@@ -10100,6 +10100,10 @@ section.resume-section .resume-section-content {
   /*padding-right:5rem;*/
 }
 
+.githubs {
+  font-size: 2em;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
