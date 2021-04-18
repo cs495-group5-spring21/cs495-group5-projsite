@@ -1,0 +1,917 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>MeasureDetailsComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/archive/measure-details/measure-details.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-measure-details</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./measure-details.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./measure-details.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#measure">measure</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#measureFileService">measureFileService</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#measureId">measureId</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#measureSub">measureSub</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#tags">tags</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnDestroy">ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onClick">onClick</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_activatedRoute: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, measuresService: <a href="../injectables/MeasuresService.html">MeasuresService</a>, measureFileService: <a href="../injectables/MeasureFilesService.html">MeasureFilesService</a>, analytics: <a href="../injectables/AnalyticsService.html">AnalyticsService</a>, authService: <a href="../injectables/FirebaseAuthService.html">FirebaseAuthService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_activatedRoute</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>measuresService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MeasuresService.html" target="_self" >MeasuresService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>measureFileService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MeasureFilesService.html" target="_self" >MeasureFilesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>analytics</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AnalyticsService.html" target="_self" >AnalyticsService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/FirebaseAuthService.html" target="_self" >FirebaseAuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestroy"></a>
+                    <span class="name">
+                        <b>
+                            ngOnDestroy
+                        </b>
+                        <a href="#ngOnDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="66"
+                            class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:66</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="35"
+                            class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:35</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>This is test documentation for our ngOnInit life cycle hook.</p>
+<p>Grabs the route parameters to get the measure link id, grabs the corresponding measure from the measures service, and redirects if the measure doesn&#39;t exist.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onClick"></a>
+                    <span class="name">
+                        <b>
+                            onClick
+                        </b>
+                        <a href="#onClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onClick(file: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="75"
+                            class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:75</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Function called when links are clicked on to download files such as PDFs, DOCXs, etc.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>file</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>The filename string to ping the database and download the corresponding files.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="measure"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            measure</b>
+                            <a href="#measure"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Measure.html" target="_self" >Observable&lt;Measure | undefined&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="measureFileService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            measureFileService</b>
+                            <a href="#measureFileService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/MeasureFilesService.html" target="_self" >MeasureFilesService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="measureId"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            measureId</b>
+                            <a href="#measureId"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="measureSub"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            measureSub</b>
+                            <a href="#measureSub"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Subscription</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tags"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            tags</b>
+                            <a href="#tags"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/archive/measure-details/measure-details.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { ActivatedRoute, Router } from &#x27;@angular/router&#x27;;
+import { Observable, Subscription } from &#x27;rxjs&#x27;;
+import { Measure } from &#x27;src/app/interfaces/measure&#x27;;
+import { MeasureFilesService } from &#x27;src/app/services/measure-files.service&#x27;;
+import { MeasuresService } from &#x27;src/app/services/measures.service&#x27;;
+import { AnalyticsService } from &#x27;src/app/services/analytics.service&#x27;;
+import { FirebaseAuthService } from &#x27;src/app/services/firebase-auth.service&#x27;;
+
+@Component({
+  selector: &#x27;app-measure-details&#x27;,
+  templateUrl: &#x27;./measure-details.component.html&#x27;,
+  styleUrls: [&#x27;./measure-details.component.scss&#x27;]
+})
+export class MeasureDetailsComponent implements OnInit {
+
+  public measure!: Observable&lt;Measure | undefined&gt;;
+  public measureId: string &#x3D; &quot;&quot;;
+  public measureSub!: Subscription;
+  public tags: string &#x3D; &quot;&quot;;
+
+  constructor(private _activatedRoute: ActivatedRoute,
+    private router: Router,
+    private measuresService: MeasuresService,
+    public measureFileService: MeasureFilesService, 
+    private analytics: AnalyticsService,
+    private authService: FirebaseAuthService) { }
+
+
+  /**
+   * This is test documentation for our ngOnInit life cycle hook.
+   * 
+   * Grabs the route parameters to get the measure link id, grabs the corresponding measure from the measures service, and redirects if the measure doesn&#x27;t exist.
+   */
+  ngOnInit(): void {
+    this._activatedRoute.paramMap.subscribe(params &#x3D;&gt; {
+
+      this.measureId &#x3D; params.get(&#x27;measureId&#x27;)!;
+
+      this.measure &#x3D; this.measuresService.getMeasure(this.measureId);
+      if (!this.measure) {
+        this.router.navigate([&#x27;archive/measures&#x27;]);
+      }
+    });
+
+    this.measureSub &#x3D; this.measure.subscribe((measure) &#x3D;&gt; {
+      if (measure) {
+        for (let i &#x3D; 0; i &lt; measure.tags.length; i++) {
+          this.tags +&#x3D; measure.tags[i];
+          if (i !&#x3D; measure.tags.length - 1) this.tags +&#x3D; &quot;, &quot;;
+        }
+
+        //console.log(measure);
+
+        this.analytics.track({
+          &#x27;measureId&#x27;: this.measureId,
+          &#x27;userId&#x27;: this.authService.id,
+          &#x27;event&#x27; : &#x27;measureViewed&#x27;,
+          &#x27;timestamp&#x27; : Date.now(),
+        });
+      }
+      //console.log(&quot;TAGS: &quot; + this.tags);
+    });
+  }
+
+  ngOnDestroy() {
+    this.measureSub.unsubscribe();
+  }
+
+  /**
+   * Function called when links are clicked on to download files such as PDFs, DOCXs, etc.
+   * 
+   * @param file The filename string to ping the database and download the corresponding files.
+   */
+  onClick(file: string) {
+    this.measureFileService.getLink(this.measureId + &quot;/&quot; + file).subscribe((url) &#x3D;&gt; {
+      window.open(url, &quot;_blank&quot;);
+    });
+  }
+
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;app-breadcrumb&gt;&lt;/app-breadcrumb&gt;
+&lt;div *ngIf&#x3D;&quot;measure&quot; class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;div class&#x3D;&quot;col-md-11 bg-light refine&quot;&gt;
+            &lt;div class&#x3D;&quot;header&quot;&gt;
+                &lt;!--&lt;a class&#x3D;&quot;btn btn-dark btn-md&quot; style&#x3D;&quot;margin-left: 10px&quot; routerLink&#x3D;&quot;/archive/measures&quot;&gt;Back To Search &lt;/a&gt; --&gt;
+                &lt;h2 class&#x3D;&quot;measure-title&quot;&gt;{{ (measure | async)?.title }}&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;small margin-bottom-10 text-muted&quot;&gt;
+               &lt;!-- &lt;i class&#x3D;&quot;fa fa-calendar&quot;&gt;&lt;/i&gt; FIXME ADD DATE?
+                {{(measure | async)?.date}} --&gt;
+                &lt;i *ngIf&#x3D;&quot;tags !&#x3D;&#x3D; &#x27;&#x27;&quot; class&#x3D;&quot;margin-left-10 fa fa-tag&quot;&gt;&lt;/i&gt;
+                &lt;span&gt; {{tags}}&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;summary&quot;&gt;
+                &lt;h4&gt;&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/h4&gt;
+                &lt;p&gt;{{(measure | async)?.summary}}&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;links&quot;&gt;
+                &lt;div class&#x3D;&quot;col-md-3 link-box&quot;&gt;
+                    &lt;span class&#x3D;&quot;link-box-title&quot;&gt;Articles&lt;/span&gt;
+                    &lt;ul *ngFor&#x3D;&quot;let article of (measure | async)?.articles&quot;&gt;
+                        &lt;li&gt;
+                            &lt;!-- &lt;a href&#x3D;&quot;{{(this.measureFileService.getLink(this.measureLink + &#x27;/&#x27; + article)| async)}}&quot;&gt;{{article}}&lt;/a&gt; --&gt;
+                            &lt;a (click)&#x3D;&quot;onClick(article)&quot;&gt;{{article}}&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col-md-3 link-box&quot;&gt;
+                    &lt;span class&#x3D;&quot;link-box-title&quot;&gt;Codebook(s)&lt;/span&gt;
+                    &lt;ul *ngFor&#x3D;&quot;let codebook of (measure | async)?.codebooks&quot;&gt;
+                        &lt;li&gt;
+                            &lt;!-- &lt;a href&#x3D;&quot;{{(this.measureFileService.getLink(this.measureLink + &#x27;/&#x27; + codebook)| async)}}&quot;&gt;{{codebook}}&lt;/a&gt; --&gt;
+                            &lt;a (click)&#x3D;&quot;onClick(codebook)&quot;&gt;{{codebook}}&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col-md-3 link-box&quot;&gt;
+                    &lt;span class&#x3D;&quot;link-box-title&quot;&gt;Psychometrics&lt;/span&gt;
+                    &lt;ul *ngFor&#x3D;&quot;let psychometric of (measure | async)?.psychometrics&quot;&gt;
+                        &lt;li&gt;
+                            &lt;!-- &lt;a href&#x3D;&quot;{{(this.measureFileService.getLink(this.measureLink + &#x27;/&#x27; + psychometric)| async)}}&quot;&gt;{{psychometric}}&lt;/a&gt; --&gt;
+                            &lt;a (click)&#x3D;&quot;onClick(psychometric)&quot;&gt;{{psychometric}}&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col-md-3 link-box&quot;&gt;
+                    &lt;span class&#x3D;&quot;link-box-title&quot;&gt;Scale(s)&lt;/span&gt;
+                    &lt;ul *ngFor&#x3D;&quot;let scale of (measure | async)?.scales&quot;&gt;
+                        &lt;li&gt;
+                            &lt;!-- &lt;a href&#x3D;&quot;{{(this.measureFileService.getLink(this.measureLink + &#x27;/&#x27; + scale)| async)}}&quot;&gt;{{scale}}&lt;/a&gt; --&gt;
+                            &lt;a (click)&#x3D;&quot;onClick(scale)&quot;&gt;{{scale}}&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./measure-details.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.measure-title {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.links {
+    padding: 2px;
+}
+
+.link-box {
+    float: left;
+    width: 24.6%;
+    border: solid 1px lightgrey;
+    padding: 5px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+}
+
+.link-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: disc;
+    line-height: 160%
+}
+
+.link-box li {
+    font-size: .9em;
+    list-style: none;
+    list-style-image: none;
+}
+
+.link-box-title {
+    display: inline-block;
+    font-size: 1.3em;
+    text-align: center;
+    width: 100%;
+    background: lightgrey;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.bg-light {
+    margin: 20px;
+    display: inline-block;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><app-breadcrumb></app-breadcrumb><div *ngIf="measure" class="container">    <div class="row">        <div class="col-md-1"></div>        <div class="col-md-11 bg-light refine">            <div class="header">                <!--<a class="btn btn-dark btn-md" style="margin-left: 10px" routerLink="/archive/measures">Back To Search </a> -->                <h2 class="measure-title">{{ (measure | async)?.title }}</h2>            </div>            <div class="small margin-bottom-10 text-muted">               <!-- <i class="fa fa-calendar"></i> FIXME ADD DATE?                {{(measure | async)?.date}} -->                <i *ngIf="tags !== \'\'" class="margin-left-10 fa fa-tag"></i>                <span> {{tags}}</span>            </div>            <div class="summary">                <h4><strong>Summary:</strong></h4>                <p>{{(measure | async)?.summary}}</p>            </div>            <div class="links">                <div class="col-md-3 link-box">                    <span class="link-box-title">Articles</span>                    <ul *ngFor="let article of (measure | async)?.articles">                        <li>                            <!-- <a href="{{(this.measureFileService.getLink(this.measureLink + \'/\' + article)| async)}}">{{article}}</a> -->                            <a (click)="onClick(article)">{{article}}</a>                        </li>                    </ul>                </div>                <div class="col-md-3 link-box">                    <span class="link-box-title">Codebook(s)</span>                    <ul *ngFor="let codebook of (measure | async)?.codebooks">                        <li>                            <!-- <a href="{{(this.measureFileService.getLink(this.measureLink + \'/\' + codebook)| async)}}">{{codebook}}</a> -->                            <a (click)="onClick(codebook)">{{codebook}}</a>                        </li>                    </ul>                </div>                <div class="col-md-3 link-box">                    <span class="link-box-title">Psychometrics</span>                    <ul *ngFor="let psychometric of (measure | async)?.psychometrics">                        <li>                            <!-- <a href="{{(this.measureFileService.getLink(this.measureLink + \'/\' + psychometric)| async)}}">{{psychometric}}</a> -->                            <a (click)="onClick(psychometric)">{{psychometric}}</a>                        </li>                    </ul>                </div>                <div class="col-md-3 link-box">                    <span class="link-box-title">Scale(s)</span>                    <ul *ngFor="let scale of (measure | async)?.scales">                        <li>                            <!-- <a href="{{(this.measureFileService.getLink(this.measureLink + \'/\' + scale)| async)}}">{{scale}}</a> -->                            <a (click)="onClick(scale)">{{scale}}</a>                        </li>                    </ul>                </div>            </div>        </div>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AboutPageComponent', 'selector': 'app-about-page'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminHomeComponent', 'selector': 'app-home'},{'name': 'AdminNavigationComponent', 'selector': 'app-navigation'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArchiveManagementComponent', 'selector': 'app-archive-management'},{'name': 'AssociateListComponent', 'selector': 'app-associate-list'},{'name': 'AssociatesComponent', 'selector': 'app-associates'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CarouselComponent', 'selector': 'app-carousel'},{'name': 'ClickIconComponent', 'selector': 'app-click-icon'},{'name': 'CommunityPageComponent', 'selector': 'app-community-page'},{'name': 'ContactFormComponent', 'selector': 'app-contact-form'},{'name': 'CTAComponent', 'selector': 'app-cta'},{'name': 'ExLinkComponent', 'selector': 'app-ex-link'},{'name': 'FacultyStaffComponent', 'selector': 'app-faculty-staff'},{'name': 'GivingPageComponent', 'selector': 'app-giving-page'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'IconBoxComponent', 'selector': 'app-icon-box'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MeasureDetailsComponent', 'selector': 'app-measure-details'},{'name': 'MeasuresComponent', 'selector': 'app-measures'},{'name': 'MembersHomeComponent', 'selector': 'app-home'},{'name': 'MembersNavigationComponent', 'selector': 'app-navigation'},{'name': 'MembersNewsComponent', 'selector': 'app-news'},{'name': 'MembersNewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NavigationComponent', 'selector': 'app-navigation'},{'name': 'NewscardComponent', 'selector': 'app-newscard'},{'name': 'NewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NewsPageComponent', 'selector': 'app-news-page'},{'name': 'PageLinksComponent', 'selector': 'app-page-links'},{'name': 'PeoplePageComponent', 'selector': 'app-people-page'},{'name': 'ProfileVerifyComponent', 'selector': 'app-profile-verify'},{'name': 'RouterOutletComponent', 'selector': 'app-router-outlet'},{'name': 'SeminarPageComponent', 'selector': 'app-seminar-page'},{'name': 'SiteManagementComponent', 'selector': 'app-sitemanagement'},{'name': 'StudentListComponent', 'selector': 'app-student-list'},{'name': 'TopLinkComponent', 'selector': 'app-top-link'},{'name': 'UserManagementComponent', 'selector': 'app-user-management'},{'name': 'VerifyEmailComponent', 'selector': 'app-verify-email'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'MeasureDetailsComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MeasureDetailsComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

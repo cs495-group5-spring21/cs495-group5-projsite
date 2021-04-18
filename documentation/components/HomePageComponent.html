@@ -1,0 +1,790 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>HomePageComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/public/home/home.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-home-page</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./home.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./home.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#stories">stories</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Optional</span>
+                                <a href="#storiesSub">storiesSub</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getDate">getDate</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestory">ngOnDestory</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(titleService: <a href="https://angular.io/api/platform-browser/Title" target="_blank">Title</a>, storiesService: <a href="../injectables/StoriesService.html">StoriesService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/public/home/home.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>titleService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/platform-browser/Title" target="_blank" >Title</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>storiesService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StoriesService.html" target="_self" >StoriesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDate"></a>
+                    <span class="name">
+                        <b>
+                            getDate
+                        </b>
+                        <a href="#getDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getDate(story: <a href="../interfaces/Story.html">Story</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="43"
+                            class="link-to-prism">src/app/public/home/home.component.ts:43</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Retrieves a story from the database and returns a formatted date of the story retrieved.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>story</td>
+                                    <td>
+                                                <code><a href="../interfaces/Story.html" target="_self" >Story</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>A document stored in the database under the stories collection.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>Returns the formatted date of the document in a string to be displayed on the home page.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestory"></a>
+                    <span class="name">
+                        <b>
+                            ngOnDestory
+                        </b>
+                        <a href="#ngOnDestory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestory()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="34"
+                            class="link-to-prism">src/app/public/home/home.component.ts:34</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="25"
+                            class="link-to-prism">src/app/public/home/home.component.ts:25</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>On initialization of the page, sets the title of the home page and 
+loads the empty array &#39;stories&#39; with every story who&#39;s postPublic variable is set to true inside the database.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="stories"></a>
+                        <span class="name">
+                            <b>
+                            stories</b>
+                            <a href="#stories"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Story.html" target="_self" >Story[]</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/public/home/home.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="storiesSub"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Optional</span>
+                            storiesSub</b>
+                            <a href="#storiesSub"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Subscription</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/public/home/home.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Title } from &#x27;@angular/platform-browser&#x27;;
+import { SharedModule } from &#x27;../../shared/shared.module&#x27;;
+import { Story } from &#x27;../../interfaces/story&#x27;;
+import { DateFormatter } from &#x27;../../models/DateFormatter&#x27;;
+import { StoriesService } from &#x27;../../services/stories.service&#x27;
+import { Observable, Subscription } from &#x27;rxjs&#x27;;
+
+@Component({
+  selector: &#x27;app-home-page&#x27;,
+  templateUrl: &#x27;./home.component.html&#x27;,
+  styleUrls: [&#x27;./home.component.scss&#x27;]
+})
+export class HomePageComponent implements OnInit {
+  stories:Story[] &#x3D; [];
+  storiesSub?: Subscription;
+
+  constructor(private titleService : Title, private storiesService : StoriesService) { 
+  }
+
+  /**
+   * On initialization of the page, sets the title of the home page and 
+   * loads the empty array &#x27;stories&#x27; with every story who&#x27;s postPublic variable is set to true inside the database.
+   */
+  ngOnInit(): void {
+    this.titleService.setTitle(&quot;HOME | Alabama Research Institute on Aging&quot;);
+    this.stories &#x3D; this.storiesService.getStoriesHomePage();
+       
+  }
+
+  /**
+   * 
+   */
+  ngOnDestory() {
+    this.storiesSub?.unsubscribe();
+  }
+  
+  /**
+   * Retrieves a story from the database and returns a formatted date of the story retrieved.
+   * @param story A document stored in the database under the stories collection.
+   * @returns Returns the formatted date of the document in a string to be displayed on the home page.
+   */
+  getDate(story: Story) : string {
+    return DateFormatter.getDate(story);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;touch-overlay&quot;&gt;&lt;/div&gt;
+&lt;!--fixme make carousel its own component that pulls from blog/database--&gt;
+&lt;section class&#x3D;&quot;site-section-top&quot; id&#x3D;&quot;skip-to-content&quot;&gt;
+  &lt;app-carousel&gt;&lt;/app-carousel&gt;
+&lt;/section&gt;
+
+&lt;!--fixme we&#x27;re gonna make this a news component--&gt;
+&lt;section class&#x3D;&quot;site-content&quot;&gt;
+  &lt;div class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+      &lt;app-newscard [input]&#x3D;&quot;stories[0]&quot; [whichNews]&#x3D;&quot;&#x27;public&#x27;&quot;&gt;&lt;/app-newscard&gt;
+      &lt;app-newscard [input]&#x3D;&quot;stories[1]&quot; [whichNews]&#x3D;&quot;&#x27;public&#x27;&quot;&gt;&lt;/app-newscard&gt;
+
+      &lt;div class&#x3D;&quot;col-md-4 col-sm-6 padding-bottom-20&quot;&gt;
+        &lt;ul class&#x3D;&quot;media-list margin-top-20&quot;&gt;
+
+          &lt;!--iterate over the rest of the stories––getStories service should only return max 8 stories for homepage--&gt;
+          &lt;li *ngFor&#x3D;&quot;let story of stories.slice(2)&quot; class&#x3D;&quot;media&quot;&gt;
+            &lt;div class&#x3D;&quot;media-body&quot;&gt;
+              &lt;p class&#x3D;&quot;small text-muted no-bottom-spacing&quot;&gt; {{ getDate(story) }} &lt;/p&gt; &lt;!--fixme get classes worked out to fix format--&gt;
+              &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;&lt;a
+                  [routerLink]&#x3D;&quot;[&#x27;/news/&#x27;, story.id]&quot;&gt;{{ story.title }}&lt;/a&gt;&lt;/h4&gt;
+            &lt;/div&gt; &lt;!-- .media-body --&gt;
+          &lt;/li&gt;
+
+        &lt;/ul&gt;
+
+        &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;btn btn-default btn-sm&quot;&gt;
+          Read More
+          &lt;i class&#x3D;&quot;fa fa-arrow-right&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/div&gt; &lt;!-- .col-md-4 --&gt;
+
+    &lt;/div&gt; &lt;!-- .row --&gt;
+  &lt;/div&gt; &lt;!-- .container --&gt;
+&lt;/section&gt;
+
+
+&lt;!--fixme events component--&gt;
+&lt;section class&#x3D;&quot;site-content bg-light padding-bottom-25&quot;&gt;
+  &lt;div id&#x3D;&quot;events&quot; class&#x3D;&quot;container padding-top-10&quot;&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+      &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+        &lt;h3 class&#x3D;&quot;page-header upcoming-events margin-bottom-25 padding-bottom-10 no-top-spacing&quot;&gt;
+          Upcoming Events
+          &lt;small class&#x3D;&quot;more-events&quot;&gt;
+            &lt;a href&#x3D;&quot;http://events.ua.edu/&quot;&gt;MORE&lt;i class&#x3D;&quot;fa fa-caret-right padding-left-5&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/small&gt;
+        &lt;/h3&gt;
+      &lt;/div&gt; &lt;!-- .col-md-12 --&gt;
+    &lt;/div&gt; &lt;!-- .row --&gt;
+
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+      &lt;div class&#x3D;&quot;col-md-3 col-sm-6&quot;&gt;
+        &lt;div class&#x3D;&quot;media padding-bottom-15&quot;&gt;
+          &lt;div class&#x3D;&quot;media-left&quot;&gt;
+            &lt;div class&#x3D;&quot;event-date margin-bottom-5&quot;&gt;
+              &lt;p&gt;20&lt;/p&gt;
+              &lt;small class&#x3D;&quot;uppercase&quot;&gt;Jan&lt;/small&gt;
+            &lt;/div&gt; &lt;!-- .event-date --&gt;
+          &lt;/div&gt; &lt;!-- .media-left --&gt;
+          &lt;div class&#x3D;&quot;media-body event-details&quot;&gt;
+            &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+              &lt;a href&#x3D;&quot;http://events.ua.edu/event/30177&quot;&gt;UA School of Music Presents: Boston Brass Concert&lt;/a&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;
+              &lt;i class&#x3D;&quot;fa fa-clock-o fa-fw&quot;&gt;&lt;/i&gt; &lt;strong&gt;Wed&lt;/strong&gt; 1/20, 7:30 p.m.
+              &lt;br&gt;
+              &lt;i class&#x3D;&quot;fa fa-map-marker fa-fw&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;letter-spacing&quot;&gt;125 Moody Music Bldng&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/div&gt; &lt;!-- .media-body --&gt;
+        &lt;/div&gt; &lt;!-- .media --&gt;
+      &lt;/div&gt; &lt;!-- .col-md-3 --&gt;
+
+      &lt;div class&#x3D;&quot;col-md-3 col-sm-6&quot;&gt;
+        &lt;div class&#x3D;&quot;media padding-bottom-15&quot;&gt;
+          &lt;div class&#x3D;&quot;media-left&quot;&gt;
+            &lt;div class&#x3D;&quot;event-date margin-bottom-5&quot;&gt;
+              &lt;p&gt;21&lt;/p&gt;
+              &lt;small class&#x3D;&quot;uppercase&quot;&gt;Jan&lt;/small&gt;
+            &lt;/div&gt; &lt;!-- .event-date --&gt;
+          &lt;/div&gt; &lt;!-- .media-left --&gt;
+          &lt;div class&#x3D;&quot;media-body event-details&quot;&gt;
+            &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+              &lt;a href&#x3D;&quot;http://events.ua.edu/event/29765&quot;&gt;UA at Oxford-Education Abroad Information Session&lt;/a&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;
+              &lt;i class&#x3D;&quot;fa fa-clock-o fa-fw&quot;&gt;&lt;/i&gt; &lt;strong&gt;Thu&lt;/strong&gt; 1/21, 5:00 p.m.
+              &lt;br&gt;
+              &lt;i class&#x3D;&quot;fa fa-map-marker fa-fw&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;letter-spacing&quot;&gt;301 Morgan Hall&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/div&gt; &lt;!-- .media-body --&gt;
+        &lt;/div&gt; &lt;!-- .media --&gt;
+      &lt;/div&gt; &lt;!-- .col-md-3 --&gt;
+
+      &lt;div class&#x3D;&quot;clearfix visible-sm-block visible-xs-block&quot;&gt;&lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;col-md-3 col-sm-6&quot;&gt;
+        &lt;div class&#x3D;&quot;media padding-bottom-15&quot;&gt;
+          &lt;div class&#x3D;&quot;media-left&quot;&gt;
+            &lt;div class&#x3D;&quot;event-date margin-bottom-5&quot;&gt;
+              &lt;p&gt;21&lt;/p&gt;
+              &lt;small class&#x3D;&quot;uppercase&quot;&gt;Jan&lt;/small&gt;
+            &lt;/div&gt; &lt;!-- .event-date --&gt;
+          &lt;/div&gt; &lt;!-- .media-left --&gt;
+          &lt;div class&#x3D;&quot;media-body event-details&quot;&gt;
+            &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+              &lt;a href&#x3D;&quot;http://events.ua.edu/event/30468&quot;&gt;Discover: Acting&lt;/a&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;
+              &lt;i class&#x3D;&quot;fa fa-clock-o fa-fw&quot;&gt;&lt;/i&gt; &lt;strong&gt;Thu&lt;/strong&gt; 1/21, 6:00 p.m.
+              &lt;br&gt;
+              &lt;i class&#x3D;&quot;fa fa-map-marker fa-fw&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;letter-spacing&quot;&gt;205 Gorgas Library&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/div&gt; &lt;!-- .media-body --&gt;
+        &lt;/div&gt; &lt;!-- .media --&gt;
+      &lt;/div&gt; &lt;!-- .col-md-3 --&gt;
+
+      &lt;div class&#x3D;&quot;col-md-3 col-sm-6&quot;&gt;
+        &lt;div class&#x3D;&quot;media padding-bottom-15&quot;&gt;
+          &lt;div class&#x3D;&quot;media-left&quot;&gt;
+            &lt;div class&#x3D;&quot;event-date margin-bottom-5&quot;&gt;
+              &lt;p&gt;23&lt;/p&gt;
+              &lt;small class&#x3D;&quot;uppercase&quot;&gt;Jan&lt;/small&gt;
+            &lt;/div&gt; &lt;!-- .event-date --&gt;
+          &lt;/div&gt; &lt;!-- .media-left --&gt;
+          &lt;div class&#x3D;&quot;media-body event-details&quot;&gt;
+            &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+              &lt;a href&#x3D;&quot;http://events.ua.edu/event/30666&quot;&gt;National Championship Celebration&lt;/a&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;
+              &lt;i class&#x3D;&quot;fa fa-clock-o fa-fw&quot;&gt;&lt;/i&gt; &lt;strong&gt;Sat&lt;/strong&gt; 1/23, 10:00 a.m.
+              &lt;br&gt;
+              &lt;i class&#x3D;&quot;fa fa-map-marker fa-fw&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;letter-spacing&quot;&gt;Denny Chimes to Bryant-Denny
+                Stadium&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/div&gt; &lt;!-- .media-body --&gt;
+        &lt;/div&gt; &lt;!-- .media --&gt;
+      &lt;/div&gt; &lt;!-- .col-md-3 --&gt;
+    &lt;/div&gt; &lt;!-- .row --&gt;
+  &lt;/div&gt; &lt;!-- .container --&gt;
+&lt;/section&gt;
+
+&lt;section class&#x3D;&quot;site-content bg-transparent-dark&quot; style&#x3D;&quot;background-image: url( &#x27;../assets/img/quadstudents03_1920.jpg&#x27; );&quot;&gt;
+  &lt;div class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+      &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+        &lt;h2&gt;The Capstone of Higher Education&lt;/h2&gt;
+        &lt;p class&#x3D;&quot;lead font-weight-500&quot;&gt;Capstone means &#x27;the top stone or high point.&#x27; Alumni and friends often refer
+          to The University of Alabama as &quot;The Capstone,&quot; a nickname coined by former UA President G. H. Denny when he
+          referred to the University as the &quot;capstone of the public school system of the state&quot; in 1913.&lt;/p&gt;
+      &lt;/div&gt; &lt;!-- .col-md-6 --&gt;
+
+      &lt;div class&#x3D;&quot;col-md-6 col-sm-12 padding-top-25&quot;&gt;
+        &lt;div class&#x3D;&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+          &lt;iframe src&#x3D;&quot;https://player.vimeo.com/video/104625184?color&#x3D;ffffff&amp;amp;title&#x3D;0&amp;amp;byline&#x3D;0&amp;amp;portrait&#x3D;0&quot;
+            title&#x3D;&quot;Some Video Title&quot; webkitallowfullscreen&#x3D;&quot;&quot; mozallowfullscreen&#x3D;&quot;&quot; allowfullscreen&#x3D;&quot;&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt; &lt;!-- .embed-responsive --&gt;
+      &lt;/div&gt; &lt;!-- .col-md-6 --&gt;
+    &lt;/div&gt; &lt;!-- .row --&gt;
+  &lt;/div&gt; &lt;!-- .container --&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./home.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="touch-overlay"></div><!--fixme make carousel its own component that pulls from blog/database--><section class="site-section-top" id="skip-to-content">  <app-carousel></app-carousel></section><!--fixme we\'re gonna make this a news component--><section class="site-content">  <div class="container">    <div class="row">      <app-newscard [input]="stories[0]" [whichNews]="\'public\'"></app-newscard>      <app-newscard [input]="stories[1]" [whichNews]="\'public\'"></app-newscard>      <div class="col-md-4 col-sm-6 padding-bottom-20">        <ul class="media-list margin-top-20">          <!--iterate over the rest of the stories––getStories service should only return max 8 stories for homepage-->          <li *ngFor="let story of stories.slice(2)" class="media">            <div class="media-body">              <p class="small text-muted no-bottom-spacing"> {{ getDate(story) }} </p> <!--fixme get classes worked out to fix format-->              <h4 class="media-heading"><a                  [routerLink]="[\'/news/\', story.id]">{{ story.title }}</a></h4>            </div> <!-- .media-body -->          </li>        </ul>        <a href="#" class="btn btn-default btn-sm">          Read More          <i class="fa fa-arrow-right"></i>        </a>      </div> <!-- .col-md-4 -->    </div> <!-- .row -->  </div> <!-- .container --></section><!--fixme events component--><section class="site-content bg-light padding-bottom-25">  <div id="events" class="container padding-top-10">    <div class="row">      <div class="col-md-12">        <h3 class="page-header upcoming-events margin-bottom-25 padding-bottom-10 no-top-spacing">          Upcoming Events          <small class="more-events">            <a href="http://events.ua.edu/">MORE<i class="fa fa-caret-right padding-left-5"></i></a>          </small>        </h3>      </div> <!-- .col-md-12 -->    </div> <!-- .row -->    <div class="row">      <div class="col-md-3 col-sm-6">        <div class="media padding-bottom-15">          <div class="media-left">            <div class="event-date margin-bottom-5">              <p>20</p>              <small class="uppercase">Jan</small>            </div> <!-- .event-date -->          </div> <!-- .media-left -->          <div class="media-body event-details">            <h4 class="media-heading">              <a href="http://events.ua.edu/event/30177">UA School of Music Presents: Boston Brass Concert</a>            </h4>            <p>              <i class="fa fa-clock-o fa-fw"></i> <strong>Wed</strong> 1/20, 7:30 p.m.              <br>              <i class="fa fa-map-marker fa-fw"></i> <span class="letter-spacing">125 Moody Music Bldng</span>            </p>          </div> <!-- .media-body -->        </div> <!-- .media -->      </div> <!-- .col-md-3 -->      <div class="col-md-3 col-sm-6">        <div class="media padding-bottom-15">          <div class="media-left">            <div class="event-date margin-bottom-5">              <p>21</p>              <small class="uppercase">Jan</small>            </div> <!-- .event-date -->          </div> <!-- .media-left -->          <div class="media-body event-details">            <h4 class="media-heading">              <a href="http://events.ua.edu/event/29765">UA at Oxford-Education Abroad Information Session</a>            </h4>            <p>              <i class="fa fa-clock-o fa-fw"></i> <strong>Thu</strong> 1/21, 5:00 p.m.              <br>              <i class="fa fa-map-marker fa-fw"></i> <span class="letter-spacing">301 Morgan Hall</span>            </p>          </div> <!-- .media-body -->        </div> <!-- .media -->      </div> <!-- .col-md-3 -->      <div class="clearfix visible-sm-block visible-xs-block"></div>      <div class="col-md-3 col-sm-6">        <div class="media padding-bottom-15">          <div class="media-left">            <div class="event-date margin-bottom-5">              <p>21</p>              <small class="uppercase">Jan</small>            </div> <!-- .event-date -->          </div> <!-- .media-left -->          <div class="media-body event-details">            <h4 class="media-heading">              <a href="http://events.ua.edu/event/30468">Discover: Acting</a>            </h4>            <p>              <i class="fa fa-clock-o fa-fw"></i> <strong>Thu</strong> 1/21, 6:00 p.m.              <br>              <i class="fa fa-map-marker fa-fw"></i> <span class="letter-spacing">205 Gorgas Library</span>            </p>          </div> <!-- .media-body -->        </div> <!-- .media -->      </div> <!-- .col-md-3 -->      <div class="col-md-3 col-sm-6">        <div class="media padding-bottom-15">          <div class="media-left">            <div class="event-date margin-bottom-5">              <p>23</p>              <small class="uppercase">Jan</small>            </div> <!-- .event-date -->          </div> <!-- .media-left -->          <div class="media-body event-details">            <h4 class="media-heading">              <a href="http://events.ua.edu/event/30666">National Championship Celebration</a>            </h4>            <p>              <i class="fa fa-clock-o fa-fw"></i> <strong>Sat</strong> 1/23, 10:00 a.m.              <br>              <i class="fa fa-map-marker fa-fw"></i> <span class="letter-spacing">Denny Chimes to Bryant-Denny                Stadium</span>            </p>          </div> <!-- .media-body -->        </div> <!-- .media -->      </div> <!-- .col-md-3 -->    </div> <!-- .row -->  </div> <!-- .container --></section><section class="site-content bg-transparent-dark" style="background-image: url( \'../assets/img/quadstudents03_1920.jpg\' );">  <div class="container">    <div class="row">      <div class="col-md-6">        <h2>The Capstone of Higher Education</h2>        <p class="lead font-weight-500">Capstone means \'the top stone or high point.\' Alumni and friends often refer          to The University of Alabama as "The Capstone," a nickname coined by former UA President G. H. Denny when he          referred to the University as the "capstone of the public school system of the state" in 1913.</p>      </div> <!-- .col-md-6 -->      <div class="col-md-6 col-sm-12 padding-top-25">        <div class="embed-responsive embed-responsive-16by9">          <iframe src="https://player.vimeo.com/video/104625184?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"            title="Some Video Title" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>        </div> <!-- .embed-responsive -->      </div> <!-- .col-md-6 -->    </div> <!-- .row -->  </div> <!-- .container --></section></div>'
+    var COMPONENTS = [{'name': 'AboutPageComponent', 'selector': 'app-about-page'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminHomeComponent', 'selector': 'app-home'},{'name': 'AdminNavigationComponent', 'selector': 'app-navigation'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArchiveManagementComponent', 'selector': 'app-archive-management'},{'name': 'AssociateListComponent', 'selector': 'app-associate-list'},{'name': 'AssociatesComponent', 'selector': 'app-associates'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CarouselComponent', 'selector': 'app-carousel'},{'name': 'ClickIconComponent', 'selector': 'app-click-icon'},{'name': 'CommunityPageComponent', 'selector': 'app-community-page'},{'name': 'ContactFormComponent', 'selector': 'app-contact-form'},{'name': 'CTAComponent', 'selector': 'app-cta'},{'name': 'ExLinkComponent', 'selector': 'app-ex-link'},{'name': 'FacultyStaffComponent', 'selector': 'app-faculty-staff'},{'name': 'GivingPageComponent', 'selector': 'app-giving-page'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'IconBoxComponent', 'selector': 'app-icon-box'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MeasureDetailsComponent', 'selector': 'app-measure-details'},{'name': 'MeasuresComponent', 'selector': 'app-measures'},{'name': 'MembersHomeComponent', 'selector': 'app-home'},{'name': 'MembersNavigationComponent', 'selector': 'app-navigation'},{'name': 'MembersNewsComponent', 'selector': 'app-news'},{'name': 'MembersNewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NavigationComponent', 'selector': 'app-navigation'},{'name': 'NewscardComponent', 'selector': 'app-newscard'},{'name': 'NewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NewsPageComponent', 'selector': 'app-news-page'},{'name': 'PageLinksComponent', 'selector': 'app-page-links'},{'name': 'PeoplePageComponent', 'selector': 'app-people-page'},{'name': 'ProfileVerifyComponent', 'selector': 'app-profile-verify'},{'name': 'RouterOutletComponent', 'selector': 'app-router-outlet'},{'name': 'SeminarPageComponent', 'selector': 'app-seminar-page'},{'name': 'SiteManagementComponent', 'selector': 'app-sitemanagement'},{'name': 'StudentListComponent', 'selector': 'app-student-list'},{'name': 'TopLinkComponent', 'selector': 'app-top-link'},{'name': 'UserManagementComponent', 'selector': 'app-user-management'},{'name': 'VerifyEmailComponent', 'selector': 'app-verify-email'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'HomePageComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'HomePageComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

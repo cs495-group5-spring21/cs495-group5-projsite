@@ -1,0 +1,1583 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>MembersHomeComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/archive/home/home.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-home</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./home.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./home.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#archiveElement">archiveElement</a>
+                            </li>
+                            <li>
+                                <a href="#archiveYOffset">archiveYOffset</a>
+                            </li>
+                            <li>
+                                <a href="#bodyElement">bodyElement</a>
+                            </li>
+                            <li>
+                                <a href="#collaborateElement">collaborateElement</a>
+                            </li>
+                            <li>
+                                <a href="#collaborateYOffset">collaborateYOffset</a>
+                            </li>
+                            <li>
+                                <a href="#currentActive">currentActive</a>
+                            </li>
+                            <li>
+                                <a href="#fixLocation">fixLocation</a>
+                            </li>
+                            <li>
+                                <a href="#navElement">navElement</a>
+                            </li>
+                            <li>
+                                <a href="#newsElement">newsElement</a>
+                            </li>
+                            <li>
+                                <a href="#newsYOffset">newsYOffset</a>
+                            </li>
+                            <li>
+                                <a href="#offsetBottom">offsetBottom</a>
+                            </li>
+                            <li>
+                                <a href="#sidebarFixedBottom">sidebarFixedBottom</a>
+                            </li>
+                            <li>
+                                <a href="#sidebarSticky">sidebarSticky</a>
+                            </li>
+                            <li>
+                                <a href="#stories">stories</a>
+                            </li>
+                            <li>
+                                <a href="#welcomeElement">welcomeElement</a>
+                            </li>
+                            <li>
+                                <a href="#welcomeYOffset">welcomeYOffset</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getBottomFix">getBottomFix</a>
+                            </li>
+                            <li>
+                                <a href="#getDate">getDate</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#scroll">scroll</a>
+                            </li>
+                            <li>
+                                <a href="#scrollToBottom">scrollToBottom</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#window:scroll">window:scroll</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(storiesService: <a href="../injectables/StoriesService.html">StoriesService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/archive/home/home.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>storiesService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StoriesService.html" target="_self" >StoriesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+    <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="window:scroll"></a>
+                    <span class="name">
+                        <b>
+                            window:scroll
+                        </b>
+                        <a href="#window:scroll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>window:scroll()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="91"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:91</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getBottomFix"></a>
+                    <span class="name">
+                        <b>
+                            getBottomFix
+                        </b>
+                        <a href="#getBottomFix"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getBottomFix()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="65"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:65</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDate"></a>
+                    <span class="name">
+                        <b>
+                            getDate
+                        </b>
+                        <a href="#getDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getDate(story: <a href="../interfaces/Story.html">Story</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="61"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:61</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>story</td>
+                                    <td>
+                                                <code><a href="../interfaces/Story.html" target="_self" >Story</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <b>
+                            ngAfterViewInit
+                        </b>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="47"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:47</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>establishes x,y locations of all elements for UI sidebar scroll placement</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="39"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:39</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="scroll"></a>
+                    <span class="name">
+                        <b>
+                            scroll
+                        </b>
+                        <a href="#scroll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>scroll(el: HTMLElement)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="74"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:74</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>scrolls to element passed</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>el</td>
+                                    <td>
+                                            <code>HTMLElement</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>the element to be scrolled to</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="scrollToBottom"></a>
+                    <span class="name">
+                        <b>
+                            scrollToBottom
+                        </b>
+                        <a href="#scrollToBottom"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>scrollToBottom()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="81"
+                            class="link-to-prism">src/app/archive/home/home.component.ts:81</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>scrolls to bottom of page for contact</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="archiveElement"></a>
+                        <span class="name">
+                            <b>
+                            archiveElement</b>
+                            <a href="#archiveElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;archive&#x27;)<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/archive/home/home.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="archiveYOffset"></a>
+                        <span class="name">
+                            <b>
+                            archiveYOffset</b>
+                            <a href="#archiveYOffset"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/archive/home/home.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="bodyElement"></a>
+                        <span class="name">
+                            <b>
+                            bodyElement</b>
+                            <a href="#bodyElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;body&#x27;)<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/archive/home/home.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="collaborateElement"></a>
+                        <span class="name">
+                            <b>
+                            collaborateElement</b>
+                            <a href="#collaborateElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;collaborate&#x27;)<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/archive/home/home.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="collaborateYOffset"></a>
+                        <span class="name">
+                            <b>
+                            collaborateYOffset</b>
+                            <a href="#collaborateYOffset"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/archive/home/home.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentActive"></a>
+                        <span class="name">
+                            <b>
+                            currentActive</b>
+                            <a href="#currentActive"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>1</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/archive/home/home.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fixLocation"></a>
+                        <span class="name">
+                            <b>
+                            fixLocation</b>
+                            <a href="#fixLocation"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/archive/home/home.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="navElement"></a>
+                        <span class="name">
+                            <b>
+                            navElement</b>
+                            <a href="#navElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;nav&#x27;)<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/archive/home/home.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="newsElement"></a>
+                        <span class="name">
+                            <b>
+                            newsElement</b>
+                            <a href="#newsElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;news&#x27;)<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/archive/home/home.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="newsYOffset"></a>
+                        <span class="name">
+                            <b>
+                            newsYOffset</b>
+                            <a href="#newsYOffset"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/archive/home/home.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="offsetBottom"></a>
+                        <span class="name">
+                            <b>
+                            offsetBottom</b>
+                            <a href="#offsetBottom"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/archive/home/home.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="sidebarFixedBottom"></a>
+                        <span class="name">
+                            <b>
+                            sidebarFixedBottom</b>
+                            <a href="#sidebarFixedBottom"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/archive/home/home.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="sidebarSticky"></a>
+                        <span class="name">
+                            <b>
+                            sidebarSticky</b>
+                            <a href="#sidebarSticky"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/archive/home/home.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="stories"></a>
+                        <span class="name">
+                            <b>
+                            stories</b>
+                            <a href="#stories"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Story.html" target="_self" >Story[]</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/archive/home/home.component.ts:21</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="welcomeElement"></a>
+                        <span class="name">
+                            <b>
+                            welcomeElement</b>
+                            <a href="#welcomeElement"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;welcome&#x27;)<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/archive/home/home.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="welcomeYOffset"></a>
+                        <span class="name">
+                            <b>
+                            welcomeYOffset</b>
+                            <a href="#welcomeYOffset"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/archive/home/home.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, HostListener, OnInit, ViewChild, ElementRef } from &#x27;@angular/core&#x27;;
+import { Story } from &#x27;../../interfaces/story&#x27;;
+import { DateFormatter } from &#x27;../../models/DateFormatter&#x27;;
+import { StoriesService } from &#x27;src/app/services/stories.service&#x27;;
+
+
+@Component({
+  selector: &#x27;app-home&#x27;,
+  templateUrl: &#x27;./home.component.html&#x27;,
+  styleUrls: [&#x27;./home.component.scss&#x27;]
+})
+export class MembersHomeComponent implements OnInit {
+  @ViewChild(&#x27;welcome&#x27;) welcomeElement!: ElementRef;
+  @ViewChild(&#x27;news&#x27;) newsElement!: ElementRef;
+  @ViewChild(&#x27;archive&#x27;) archiveElement!: ElementRef;
+  @ViewChild(&#x27;collaborate&#x27;) collaborateElement!: ElementRef;
+  @ViewChild(&#x27;nav&#x27;) navElement!: ElementRef;
+  @ViewChild(&#x27;body&#x27;) bodyElement!: ElementRef;
+
+
+  stories: Story[] &#x3D; [];
+
+  currentActive: number &#x3D; 1;
+  welcomeYOffset: number &#x3D; 0;
+  newsYOffset: number &#x3D; 0;
+  archiveYOffset: number &#x3D; 0;
+  collaborateYOffset: number &#x3D; 0;
+
+  offsetBottom: number &#x3D; 0;
+  fixLocation: number &#x3D; 0;
+
+  sidebarSticky: boolean &#x3D; false;
+  sidebarFixedBottom: boolean &#x3D; false;
+
+
+  /*https://stackoverflow.com/questions/54446171/angular-6-how-to-highlight-element-on-navbar-depending-on-scroll*/
+  constructor(private storiesService: StoriesService) { }
+
+  ngOnInit(): void {
+    this.stories &#x3D; this.storiesService.getStoriesHomePageMembers();
+    //console.log(this.stories);
+  }
+
+  /**
+   * establishes x,y locations of all elements for UI sidebar scroll placement
+   */
+  ngAfterViewInit() {
+    this.welcomeYOffset &#x3D; this.welcomeElement.nativeElement.offsetTop;
+    this.newsYOffset &#x3D; this.newsElement.nativeElement.offsetTop;
+    this.archiveYOffset &#x3D; this.archiveElement.nativeElement.offsetTop;
+    this.collaborateYOffset &#x3D; this.collaborateElement.nativeElement.offsetTop;
+
+    this.offsetBottom &#x3D; this.collaborateYOffset + 1.5 * this.collaborateElement.nativeElement.offsetHeight;
+    this.fixLocation &#x3D; this.bodyElement.nativeElement.offsetHeight - (this.navElement.nativeElement.offsetHeight / 2);
+
+    //console.log(&quot;body height: &quot; + this.bodyElement.nativeElement.offsetHeight);
+    //console.log(&quot;sidebar offset /2: &quot; + this.navElement.nativeElement.offsetHeight / 2);
+
+  }
+
+  getDate(story: Story): string {
+    return DateFormatter.getDate(story);
+  }
+
+  getBottomFix(): string {
+    //console.log(&quot;I RAN!&quot;);
+    return this.fixLocation + &#x27;px&#x27;;
+  }
+
+  /**
+   * scrolls to element passed
+   * @param el the element to be scrolled to
+   */
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({ behavior: &quot;smooth&quot;, block: &quot;end&quot; });
+  }
+
+  /**
+   * scrolls to bottom of page for contact
+   */
+  scrollToBottom() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: &quot;smooth&quot; });
+  }
+
+
+  @HostListener(&#x27;window:scroll&#x27;, [])
+
+  /**
+   * determines how to display the sidebar
+   */
+  scrolling() {
+    //console.log(&quot;scrolling offset: &quot; + window.pageYOffset);
+
+    if (window.pageYOffset &gt; this.collaborateYOffset) this.currentActive &#x3D; 4;
+    else if (window.pageYOffset &gt; this.archiveYOffset) this.currentActive &#x3D; 3;
+    else if (window.pageYOffset &gt; this.newsYOffset) this.currentActive &#x3D; 2;
+    else this.currentActive &#x3D; 1;
+
+    if (window.pageYOffset &gt;&#x3D; 420) this.sidebarSticky &#x3D; true;
+    else this.sidebarSticky &#x3D; false;
+
+    if (window.pageYOffset &gt;&#x3D; this.offsetBottom) {
+      this.sidebarFixedBottom &#x3D; true;
+      this.sidebarSticky &#x3D; false;
+      this.fixLocation &#x3D; this.bodyElement.nativeElement.offsetHeight - (this.navElement.nativeElement.offsetHeight) - 60;
+    }
+    else this.sidebarFixedBottom &#x3D; false;
+    //console.log(&quot;on &quot; + this.currentActive);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;section class&#x3D;&quot;site-section-top&quot;&gt;
+    &lt;div class&#x3D;&quot;bg-img&quot; style&#x3D;&quot;background-image: url(&#x27;assets/img/archive/fam.jpg&#x27;); background-position:0,1200px;&quot;&gt;
+        &lt;div class&#x3D;&quot;container site-content&quot;&gt;
+            &lt;div class&#x3D;&quot;site-heading-bg-primary&quot;&gt;
+                &lt;h1&gt;ARIA Members&lt;/h1&gt;
+            &lt;/div&gt; &lt;!-- .site-heading-bg --&gt;
+        &lt;/div&gt; &lt;!-- .container --&gt;
+    &lt;/div&gt; &lt;!-- .site-section-bg --&gt;
+&lt;/section&gt;
+
+&lt;section class&#x3D;&quot;site-content&quot; id&#x3D;&quot;skip-to-content&quot;&gt;
+    &lt;div class&#x3D;&quot;container&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-md-3 align-self-end&quot;&gt;
+                &lt;div #nav class&#x3D;&quot;sidebar sidebar-sticky affix scroll-to hidden-xs hidden-sm&quot; [ngClass]&#x3D;&quot;{affix: sidebarSticky, &#x27;bottom&#x27;: sidebarFixedBottom}&quot; [ngStyle]&#x3D;&quot;{&#x27;top&#x27;: sidebarFixedBottom ? getBottomFix() : null}&quot;&gt;
+                    &lt;ul class&#x3D;&quot;nav nav-pills nav-stacked&quot;&gt;
+                        &lt;li [ngClass]&#x3D;&quot;{&#x27;active&#x27;: currentActive&#x3D;&#x3D;1}&quot; (click)&#x3D;&quot;scroll(welcome)&quot;&gt;&lt;a
+                                routerLink&#x3D;&quot;/archive&quot;&gt;Welcome&lt;/a&gt;&lt;/li&gt;
+                        &lt;!--fixme page linking with router--&gt;
+                        &lt;li [ngClass]&#x3D;&quot;{&#x27;active&#x27;: currentActive&#x3D;&#x3D;2}&quot; (click)&#x3D;&quot;scroll(news)&quot;&gt;&lt;a
+                                routerLink&#x3D;&quot;/archive&quot;&gt;News&lt;/a&gt;&lt;/li&gt;
+                        &lt;li [ngClass]&#x3D;&quot;{&#x27;active&#x27;: currentActive&#x3D;&#x3D;3}&quot; (click)&#x3D;&quot;scroll(archive)&quot;&gt;&lt;a&gt;Archive&lt;/a&gt;&lt;/li&gt;
+                        &lt;li [ngClass]&#x3D;&quot;{&#x27;active&#x27;: currentActive&#x3D;&#x3D;4}&quot; (click)&#x3D;&quot;scroll(collaborate)&quot;&gt;&lt;a&gt;Collaborate&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;a (click)&#x3D;&quot;scrollToBottom()&quot;
+                        class&#x3D;&quot;btn btn-crimson btn-featured-left btn-block font-weight-600 uppercase margin-top-30&quot;&gt;Contact
+                        Us&lt;i class&#x3D;&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;/div&gt; &lt;!-- .sidebar --&gt;
+            &lt;/div&gt; &lt;!-- .col-md-3 --&gt;
+
+            &lt;div #body class&#x3D;&quot;col-md-9&quot;&gt;
+                &lt;div #welcome&gt;
+                    &lt;h2 class&#x3D;&quot;page-header&quot;&gt;Welcome&lt;/h2&gt;
+                    &lt;p class&#x3D;&quot;lead&quot;&gt;ARIA Associates are everywhere!&lt;/p&gt;
+                    &lt;p&gt;If you have a faculty appointment at UA, you can apply to become an associate of ARIA. If you are a UA employee who
+                        does not hold faculty status, or if you are not employed by UA but would like to be a part of the Institute, you can
+                        apply for affiliate status. Please &lt;a href&#x3D;&quot;mailto:aria@ua.edu&quot;&gt;email us&lt;/a&gt;. for more information or if you would like to apply to become an
+                        associate or affiliate. In your email, please include your c.v. and a short statement regarding your interest in
+                        aging research.
+
+                    &lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div #news&gt;
+                    &lt;h2 id&#x3D;&quot;item-2&quot; class&#x3D;&quot;page-header&quot;&gt;News&lt;/h2&gt;
+
+                    &lt;div class&#x3D;&quot;container&quot;&gt;
+                        &lt;div class&#x3D;&quot;row&quot;&gt;
+                            &lt;app-newscard [input]&#x3D;&quot;stories[0]&quot; [whichNews]&#x3D;&quot;&#x27;members&#x27;&quot;&gt;&lt;/app-newscard&gt;
+                            &lt;app-newscard [input]&#x3D;&quot;stories[1]&quot; [whichNews]&#x3D;&quot;&#x27;members&#x27;&quot;&gt;&lt;/app-newscard&gt;
+
+                        &lt;/div&gt; &lt;!-- .row --&gt;
+                        &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;btn btn-crimson btn-sm&quot;&gt;
+                            See All News Stories
+                            &lt;i class&#x3D;&quot;fa fa-arrow-right&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+
+
+                    &lt;/div&gt; &lt;!-- .container --&gt;
+                &lt;/div&gt;
+
+
+                &lt;div #archive&gt;
+                    &lt;h2 class&#x3D;&quot;page-header&quot;&gt;About the Measures Archive&lt;/h2&gt;
+                    &lt;p class&#x3D;&quot;lead&quot;&gt;Our archive is a collection of empirically supported measures intended to facilitate research and
+                        clinical work with older adults.&lt;/p&gt;
+                    &lt;p&gt;Featured resources are diverse in their purposes and applications—ranging from measures of depression, caregiving,
+                        and attitudes toward sexuality to assessments of cognitive impairment, substance abuse, and mobility. In addition to
+                        the measure itself, available information about each measure’s native literature(s), psychometric properties, and
+                        coding is also provided.&lt;/p&gt;
+                    
+                    &lt;p&gt;The Institute is committed to actively growing and refining this archive, and we welcome your help with that effort.
+                        Your comments, recommendations and submission of additional measures are invited. Please include supplementary data
+                        and references if at all possible.&lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;b&gt;Disclaimer:&lt;/b&gt; All measures included herein are, to our knowledge, nonproprietary and otherwise available
+                        for public use and dissemination. These measures, and their associated features, have also been reviewed extensively
+                        for accuracy and completeness.
+                    &lt;/p&gt;
+                    &lt;a routerLink&#x3D;&quot;/archive/measures&quot; class&#x3D;&quot;btn btn-crimson btn-sm&quot;&gt;
+                        Go to the Archive
+                        &lt;i class&#x3D;&quot;fa fa-arrow-right&quot;&gt;&lt;/i&gt;
+                    &lt;/a&gt;
+
+                    &lt;div class&#x3D;&quot;row&quot; style&#x3D;&quot;display:none;&quot;&gt;
+                        &lt;div class&#x3D;&quot;col-md-6 col-sm-6&quot; &gt;
+                            &lt;div class&#x3D;&quot;list-group&quot;&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 1&lt;/a&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 2&lt;/a&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 3&lt;/a&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 4&lt;/a&gt;
+                            &lt;/div&gt; &lt;!-- .list-group --&gt;
+                        &lt;/div&gt; &lt;!-- .col-md-6 --&gt;
+                        &lt;div class&#x3D;&quot;col-md-6 col-sm-6&quot;&gt;
+                            &lt;div class&#x3D;&quot;list-group&quot;&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 5&lt;/a&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 6&lt;/a&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 7&lt;/a&gt;
+                                &lt;a class&#x3D;&quot;list-group-item&quot; href&#x3D;&quot;#&quot;&gt;&lt;i
+                                        class&#x3D;&quot;fa fa-cog fa-lg fa-fw margin-right-10&quot;&gt;&lt;/i&gt;Topic Link 8&lt;/a&gt;
+                            &lt;/div&gt; &lt;!-- .list-group --&gt;
+                        &lt;/div&gt; &lt;!-- .col-md-6 --&gt;
+                    &lt;/div&gt; &lt;!-- .row --&gt;
+                &lt;/div&gt;
+
+                &lt;div #collaborate&gt;
+                    &lt;h2 class&#x3D;&quot;page-header&quot;&gt;Collaborate&lt;/h2&gt;
+                    &lt;p class&#x3D;&quot;lead&quot;&gt;Our goal at ARIA is to connect like-minded researchers with colleagues who share similar interests.&lt;/p&gt;
+                    &lt;p&gt;&lt;/p&gt;
+
+                    &lt;div class&#x3D;&quot;content-box box-img bg-light margin-bottom-40&quot;&gt;
+                        &lt;div class&#x3D;&quot;row no-gutter&quot;&gt;
+                            &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+                                &lt;img class&#x3D;&quot;img-responsive&quot; src&#x3D;&quot;assets/img/archive/collab.jpg&quot; alt&#x3D;&quot;&quot;&gt;
+                            &lt;/div&gt; &lt;!-- .col-md-6 --&gt;
+                            &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+                                &lt;div class&#x3D;&quot;box-body&quot;&gt;
+                                    &lt;h3 class&#x3D;&quot;margin-top-10&quot;&gt;Find a Partner&lt;/h3&gt;
+                                    &lt;p&gt;Explore our associates page to learn more about other members of ARIA. There you will find their areas of expertise
+                                        and contact info. This is a great resource for those looking for more collaborators for a project!
+                                    &lt;/p&gt;
+                                    &lt;a routerLink&#x3D;&quot;/archive/associates&quot; class&#x3D;&quot;btn btn-default btn-sm&quot;&gt; &lt;!--fixme add link--&gt;
+                                        See More Associates
+                                        &lt;i class&#x3D;&quot;fa fa-arrow-right&quot;&gt;&lt;/i&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt; &lt;!-- .box-body --&gt;
+                            &lt;/div&gt; &lt;!-- .col-md-6 --&gt;
+                        &lt;/div&gt; &lt;!-- .row --&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+
+
+
+            &lt;/div&gt; &lt;!-- .col-md-9 --&gt;
+        &lt;/div&gt; &lt;!-- .row --&gt;
+    &lt;/div&gt; &lt;!-- .container --&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./home.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.bg-img{
+    height: 400px;
+}
+
+.bg-img .site-content{
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+    .sidebar-sticky .nav &gt; .active &gt; ul {
+        display: block;
+    }
+
+    .sidebar-sticky {
+        position: relative;
+        top: 0px;
+    }
+    .sidebar-sticky.bottom {
+        position: relative;
+        top: 1935px;
+    }
+    .sidebar-sticky.affix,
+    .sidebar-sticky.affix-bottom {
+        width: 213px;
+    }
+    .sidebar-sticky.affix {
+        position: fixed;
+        top: 40px;
+    }
+    .sidebar-sticky.affix-bottom {
+        position: absolute;
+    }
+}
+@media (min-width: 1200px) {
+    .sidebar-sticky.affix,
+    .sidebar-sticky.affix-bottom {
+        width: 263px;
+    }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><section class="site-section-top">    <div class="bg-img" style="background-image: url(\'assets/img/archive/fam.jpg\'); background-position:0,1200px;">        <div class="container site-content">            <div class="site-heading-bg-primary">                <h1>ARIA Members</h1>            </div> <!-- .site-heading-bg -->        </div> <!-- .container -->    </div> <!-- .site-section-bg --></section><section class="site-content" id="skip-to-content">    <div class="container">        <div class="row">            <div class="col-md-3 align-self-end">                <div #nav class="sidebar sidebar-sticky affix scroll-to hidden-xs hidden-sm" [ngClass]="{affix: sidebarSticky, \'bottom\': sidebarFixedBottom}" [ngStyle]="{\'top\': sidebarFixedBottom ? getBottomFix() : null}">                    <ul class="nav nav-pills nav-stacked">                        <li [ngClass]="{\'active\': currentActive==1}" (click)="scroll(welcome)"><a                                routerLink="/archive">Welcome</a></li>                        <!--fixme page linking with router-->                        <li [ngClass]="{\'active\': currentActive==2}" (click)="scroll(news)"><a                                routerLink="/archive">News</a></li>                        <li [ngClass]="{\'active\': currentActive==3}" (click)="scroll(archive)"><a>Archive</a></li>                        <li [ngClass]="{\'active\': currentActive==4}" (click)="scroll(collaborate)"><a>Collaborate</a>                        </li>                    </ul>                    <a (click)="scrollToBottom()"                        class="btn btn-crimson btn-featured-left btn-block font-weight-600 uppercase margin-top-30">Contact                        Us<i class="fa fa-envelope"></i></a>                </div> <!-- .sidebar -->            </div> <!-- .col-md-3 -->            <div #body class="col-md-9">                <div #welcome>                    <h2 class="page-header">Welcome</h2>                    <p class="lead">ARIA Associates are everywhere!</p>                    <p>If you have a faculty appointment at UA, you can apply to become an associate of ARIA. If you are a UA employee who                        does not hold faculty status, or if you are not employed by UA but would like to be a part of the Institute, you can                        apply for affiliate status. Please <a href="mailto:aria@ua.edu">email us</a>. for more information or if you would like to apply to become an                        associate or affiliate. In your email, please include your c.v. and a short statement regarding your interest in                        aging research.                    </p>                </div>                <div #news>                    <h2 id="item-2" class="page-header">News</h2>                    <div class="container">                        <div class="row">                            <app-newscard [input]="stories[0]" [whichNews]="\'members\'"></app-newscard>                            <app-newscard [input]="stories[1]" [whichNews]="\'members\'"></app-newscard>                        </div> <!-- .row -->                        <a href="#" class="btn btn-crimson btn-sm">                            See All News Stories                            <i class="fa fa-arrow-right"></i>                        </a>                    </div> <!-- .container -->                </div>                <div #archive>                    <h2 class="page-header">About the Measures Archive</h2>                    <p class="lead">Our archive is a collection of empirically supported measures intended to facilitate research and                        clinical work with older adults.</p>                    <p>Featured resources are diverse in their purposes and applications—ranging from measures of depression, caregiving,                        and attitudes toward sexuality to assessments of cognitive impairment, substance abuse, and mobility. In addition to                        the measure itself, available information about each measure’s native literature(s), psychometric properties, and                        coding is also provided.</p>                                        <p>The Institute is committed to actively growing and refining this archive, and we welcome your help with that effort.                        Your comments, recommendations and submission of additional measures are invited. Please include supplementary data                        and references if at all possible.</p>                    <p>                        <b>Disclaimer:</b> All measures included herein are, to our knowledge, nonproprietary and otherwise available                        for public use and dissemination. These measures, and their associated features, have also been reviewed extensively                        for accuracy and completeness.                    </p>                    <a routerLink="/archive/measures" class="btn btn-crimson btn-sm">                        Go to the Archive                        <i class="fa fa-arrow-right"></i>                    </a>                    <div class="row" style="display:none;">                        <div class="col-md-6 col-sm-6" >                            <div class="list-group">                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 1</a>                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 2</a>                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 3</a>                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 4</a>                            </div> <!-- .list-group -->                        </div> <!-- .col-md-6 -->                        <div class="col-md-6 col-sm-6">                            <div class="list-group">                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 5</a>                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 6</a>                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 7</a>                                <a class="list-group-item" href="#"><i                                        class="fa fa-cog fa-lg fa-fw margin-right-10"></i>Topic Link 8</a>                            </div> <!-- .list-group -->                        </div> <!-- .col-md-6 -->                    </div> <!-- .row -->                </div>                <div #collaborate>                    <h2 class="page-header">Collaborate</h2>                    <p class="lead">Our goal at ARIA is to connect like-minded researchers with colleagues who share similar interests.</p>                    <p></p>                    <div class="content-box box-img bg-light margin-bottom-40">                        <div class="row no-gutter">                            <div class="col-md-6">                                <img class="img-responsive" src="assets/img/archive/collab.jpg" alt="">                            </div> <!-- .col-md-6 -->                            <div class="col-md-6">                                <div class="box-body">                                    <h3 class="margin-top-10">Find a Partner</h3>                                    <p>Explore our associates page to learn more about other members of ARIA. There you will find their areas of expertise                                        and contact info. This is a great resource for those looking for more collaborators for a project!                                    </p>                                    <a routerLink="/archive/associates" class="btn btn-default btn-sm"> <!--fixme add link-->                                        See More Associates                                        <i class="fa fa-arrow-right"></i>                                    </a>                                </div> <!-- .box-body -->                            </div> <!-- .col-md-6 -->                        </div> <!-- .row -->                    </div>                </div>            </div> <!-- .col-md-9 -->        </div> <!-- .row -->    </div> <!-- .container --></section></div>'
+    var COMPONENTS = [{'name': 'AboutPageComponent', 'selector': 'app-about-page'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminHomeComponent', 'selector': 'app-home'},{'name': 'AdminNavigationComponent', 'selector': 'app-navigation'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArchiveManagementComponent', 'selector': 'app-archive-management'},{'name': 'AssociateListComponent', 'selector': 'app-associate-list'},{'name': 'AssociatesComponent', 'selector': 'app-associates'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CarouselComponent', 'selector': 'app-carousel'},{'name': 'ClickIconComponent', 'selector': 'app-click-icon'},{'name': 'CommunityPageComponent', 'selector': 'app-community-page'},{'name': 'ContactFormComponent', 'selector': 'app-contact-form'},{'name': 'CTAComponent', 'selector': 'app-cta'},{'name': 'ExLinkComponent', 'selector': 'app-ex-link'},{'name': 'FacultyStaffComponent', 'selector': 'app-faculty-staff'},{'name': 'GivingPageComponent', 'selector': 'app-giving-page'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'IconBoxComponent', 'selector': 'app-icon-box'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MeasureDetailsComponent', 'selector': 'app-measure-details'},{'name': 'MeasuresComponent', 'selector': 'app-measures'},{'name': 'MembersHomeComponent', 'selector': 'app-home'},{'name': 'MembersNavigationComponent', 'selector': 'app-navigation'},{'name': 'MembersNewsComponent', 'selector': 'app-news'},{'name': 'MembersNewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NavigationComponent', 'selector': 'app-navigation'},{'name': 'NewscardComponent', 'selector': 'app-newscard'},{'name': 'NewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NewsPageComponent', 'selector': 'app-news-page'},{'name': 'PageLinksComponent', 'selector': 'app-page-links'},{'name': 'PeoplePageComponent', 'selector': 'app-people-page'},{'name': 'ProfileVerifyComponent', 'selector': 'app-profile-verify'},{'name': 'RouterOutletComponent', 'selector': 'app-router-outlet'},{'name': 'SeminarPageComponent', 'selector': 'app-seminar-page'},{'name': 'SiteManagementComponent', 'selector': 'app-sitemanagement'},{'name': 'StudentListComponent', 'selector': 'app-student-list'},{'name': 'TopLinkComponent', 'selector': 'app-top-link'},{'name': 'UserManagementComponent', 'selector': 'app-user-management'},{'name': 'VerifyEmailComponent', 'selector': 'app-verify-email'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'MembersHomeComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MembersHomeComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

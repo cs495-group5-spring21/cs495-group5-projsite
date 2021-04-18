@@ -1,0 +1,897 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>UserManagementComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/admin/user-management/user-management.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-user-management</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./user-management.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./user-management.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#adminUsersSource">adminUsersSource</a>
+                            </li>
+                            <li>
+                                <a href="#displayedAdminColumns">displayedAdminColumns</a>
+                            </li>
+                            <li>
+                                <a href="#displayedNormalColumns">displayedNormalColumns</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#firebaseAuthServic">firebaseAuthServic</a>
+                            </li>
+                            <li>
+                                <a href="#normalUsersSource">normalUsersSource</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#userService">userService</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onDelete">onDelete</a>
+                            </li>
+                            <li>
+                                <a href="#onMakeAdmin">onMakeAdmin</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(userService: <a href="../injectables/UserService.html">UserService</a>, firebaseAuthServic: <a href="../injectables/FirebaseAuthService.html">FirebaseAuthService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>userService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>firebaseAuthServic</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/FirebaseAuthService.html" target="_self" >FirebaseAuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="21"
+                            class="link-to-prism">src/app/admin/user-management/user-management.component.ts:21</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onDelete"></a>
+                    <span class="name">
+                        <b>
+                            onDelete
+                        </b>
+                        <a href="#onDelete"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onDelete(element: <a href="../interfaces/FirebaseUser.html">FirebaseUser</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="45"
+                            class="link-to-prism">src/app/admin/user-management/user-management.component.ts:45</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Function called when an administrator wants to delete a user</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>element</td>
+                                    <td>
+                                                <code><a href="../interfaces/FirebaseUser.html" target="_self" >FirebaseUser</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>object contaiing the data of the user document to be deleted</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onMakeAdmin"></a>
+                    <span class="name">
+                        <b>
+                            onMakeAdmin
+                        </b>
+                        <a href="#onMakeAdmin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onMakeAdmin(element: <a href="../interfaces/FirebaseUser.html">FirebaseUser</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="56"
+                            class="link-to-prism">src/app/admin/user-management/user-management.component.ts:56</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Function to make the given FirebaseUser an admin</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>element</td>
+                                    <td>
+                                                <code><a href="../interfaces/FirebaseUser.html" target="_self" >FirebaseUser</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Object containing data of the Firebase User selected</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="adminUsersSource"></a>
+                        <span class="name">
+                            <b>
+                            adminUsersSource</b>
+                            <a href="#adminUsersSource"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/FirebaseUser.html" target="_self" >MatTableDataSource&lt;FirebaseUser&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="displayedAdminColumns"></a>
+                        <span class="name">
+                            <b>
+                            displayedAdminColumns</b>
+                            <a href="#displayedAdminColumns"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>string[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&#x27;name&#x27;,&#x27;association&#x27;,&#x27;email&#x27;]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="displayedNormalColumns"></a>
+                        <span class="name">
+                            <b>
+                            displayedNormalColumns</b>
+                            <a href="#displayedNormalColumns"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>string[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&#x27;name&#x27;,&#x27;association&#x27;,&#x27;email&#x27;, &#x27;edit&#x27;]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="firebaseAuthServic"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            firebaseAuthServic</b>
+                            <a href="#firebaseAuthServic"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/FirebaseAuthService.html" target="_self" >FirebaseAuthService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="normalUsersSource"></a>
+                        <span class="name">
+                            <b>
+                            normalUsersSource</b>
+                            <a href="#normalUsersSource"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/FirebaseUser.html" target="_self" >MatTableDataSource&lt;FirebaseUser&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="userService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            userService</b>
+                            <a href="#userService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/admin/user-management/user-management.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { MatTableDataSource } from &#x27;@angular/material/table&#x27;;
+import { FirebaseUser } from &#x27;src/app/interfaces/firebase-user&#x27;;
+import { FirebaseAuthService } from &#x27;src/app/services/firebase-auth.service&#x27;;
+import { UserService } from &#x27;src/app/services/user.service&#x27;;
+
+@Component({
+  selector: &#x27;app-user-management&#x27;,
+  templateUrl: &#x27;./user-management.component.html&#x27;,
+  styleUrls: [&#x27;./user-management.component.scss&#x27;]
+})
+export class UserManagementComponent implements OnInit {
+
+  displayedAdminColumns: string[] &#x3D; [&#x27;name&#x27;,&#x27;association&#x27;,&#x27;email&#x27;];
+  displayedNormalColumns: string[] &#x3D; [&#x27;name&#x27;,&#x27;association&#x27;,&#x27;email&#x27;, &#x27;edit&#x27;];
+  adminUsersSource!: MatTableDataSource&lt;FirebaseUser&gt;;
+  normalUsersSource!: MatTableDataSource&lt;FirebaseUser&gt;;
+
+  constructor(public userService: UserService, public firebaseAuthServic: FirebaseAuthService) { }
+
+  ngOnInit(): void {
+    this.userService.getUsers().subscribe((data) &#x3D;&gt; {
+      var normalUsers &#x3D; Array&lt;FirebaseUser&gt;();
+      var adminUsers &#x3D; Array&lt;FirebaseUser&gt;();
+
+      var users &#x3D; Array&lt;FirebaseUser&gt;();
+      users &#x3D; data as FirebaseUser[];
+      users.forEach((user) &#x3D;&gt; {
+        if(user.admin) {
+          adminUsers.push(user);
+        } else {
+          normalUsers.push(user);
+        }
+      });
+      this.normalUsersSource &#x3D; new MatTableDataSource&lt;FirebaseUser&gt;(normalUsers);
+      this.adminUsersSource &#x3D; new MatTableDataSource&lt;FirebaseUser&gt;(adminUsers);
+    });
+  }
+
+  /**
+   * Function called when an administrator wants to delete a user
+   * 
+   * @param element object contaiing the data of the user document to be deleted
+   */
+  onDelete(element: FirebaseUser) {
+    if (confirm(&quot;Are you sure you want to delete+ &quot; + element.firstName + &quot; &quot; + element.lastName + &quot;&#x27;s account. This process is not reversible&quot;) &#x3D;&#x3D; true) {
+      this.userService.deleteUserDoc(element.uid);
+    }
+  }
+
+  /**
+   * Function to make the given FirebaseUser an admin
+   * 
+   * @param element Object containing data of the Firebase User selected
+   */
+  onMakeAdmin(element: FirebaseUser) {
+    if (confirm(&quot;Do you want to make &quot; + element.firstName + &quot; &quot; + element.lastName + &quot; an admin user?&quot;) &#x3D;&#x3D; true) {
+      this.userService.updateSpecificUserData(element.uid, {&quot;admin&quot;:true});
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;app-breadcrumb&gt;&lt;/app-breadcrumb&gt;
+
+&lt;section class&#x3D;&quot;site-content&quot; id&#x3D;&quot;skip-to-content&quot;&gt;
+    &lt;div class&#x3D;&quot;container&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+                &lt;h1 class&#x3D;&quot;page-header&quot;&gt;Admin Users&lt;/h1&gt;
+                &lt;table mat-table [dataSource]&#x3D;&#x27;adminUsersSource&#x27;
+                    class&#x3D;&quot;table table-striped table-bordered datatables-example&quot;&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;name&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt; Name &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt; {{element.firstName}}&amp;nbsp;{{element.lastName}}&lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;association&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt; Association &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt; {{element.association | uppercase}} &lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;email&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt; Emails &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt; {{element.email}} &lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;edit&quot;&gt;
+                        &lt;!-- &lt;th mat-header-cell *matHeaderCellDef&gt;
+                            &lt;button class&#x3D;&quot;btn btn-crimson&quot; data-toggle&#x3D;&quot;modal&quot;
+                                data-target&#x3D;&quot;.modal-new-measure&quot; (click)&#x3D;&quot;onAdd()&quot;&gt;+&lt;/button&gt;
+                        &lt;/th&gt; --&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt;
+                            &lt;!-- &lt;p style&#x3D;&quot;margin: 0px&quot;&gt;
+                                &lt;strong style&#x3D;&quot;margin-right:10px; font-size:1.5em;&quot;&gt;&lt;a data-toggle&#x3D;&quot;modal&quot; data-target&#x3D;&quot;.modal-new-measure&quot; (click)&#x3D;&quot;editMeasure(element)&quot;&gt;&lt;i class&#x3D;&quot;fa fa-pencil-square-o&quot; alt&#x3D;&quot;edit&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/strong&gt;
+                                &lt;a style&#x3D;&quot;font-size:1.5em&quot; (click)&#x3D;&quot;deleteMeasure(element)&quot;&gt;&lt;i class&#x3D;&quot;fa fa-trash-o&quot; alt&#x3D;&quot;Delete&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;/p&gt; --&gt;
+                        &lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;tr mat-header-row *matHeaderRowDef&#x3D;&quot;displayedAdminColumns&quot;&gt;&lt;/tr&gt;
+                    &lt;tr mat-row *matRowDef&#x3D;&quot;let row; columns: displayedAdminColumns;&quot;&gt;&lt;/tr&gt;
+
+                &lt;/table&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class&#x3D;&quot;site-content&quot; id&#x3D;&quot;skip-to-content&quot;&gt;
+    &lt;div class&#x3D;&quot;container&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+                &lt;h1 class&#x3D;&quot;page-header&quot;&gt;Normal Users&lt;/h1&gt;
+                &lt;table mat-table [dataSource]&#x3D;&#x27;normalUsersSource&#x27;
+                    class&#x3D;&quot;table table-striped table-bordered datatables-example&quot;&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;name&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt; Name &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt; {{element.firstName}}&amp;nbsp;{{element.lastName}}&lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;association&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt; Association &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt; {{element.association | uppercase}} &lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;email&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt; Emails &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt; {{element.email}} &lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;ng-container matColumnDef&#x3D;&quot;edit&quot;&gt;
+                        &lt;th mat-header-cell *matHeaderCellDef&gt;
+                            Edit User
+                            &lt;!-- &lt;button class&#x3D;&quot;btn btn-crimson&quot; data-toggle&#x3D;&quot;modal&quot;
+                                data-target&#x3D;&quot;.modal-new-measure&quot; (click)&#x3D;&quot;onAdd()&quot;&gt;Make Admin&lt;/button&gt; --&gt;
+                        &lt;/th&gt;
+                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt;
+                            &lt;p style&#x3D;&quot;margin: 0px&quot;&gt;
+                                &lt;button class&#x3D;&quot;btn btn-crimson&quot; data-toggle&#x3D;&quot;modal&quot;
+                                data-target&#x3D;&quot;.modal-new-measure&quot; (click)&#x3D;&quot;onMakeAdmin(element)&quot;&gt;Make Admin&lt;/button&gt;
+                                &amp;nbsp;
+                                &lt;a style&#x3D;&quot;font-size:1.5em&quot; (click)&#x3D;&quot;onDelete(element)&quot;&gt;&lt;i class&#x3D;&quot;fa fa-trash-o&quot; alt&#x3D;&quot;Delete&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/ng-container&gt;
+
+                    &lt;tr mat-header-row *matHeaderRowDef&#x3D;&quot;displayedNormalColumns&quot;&gt;&lt;/tr&gt;
+                    &lt;tr mat-row *matRowDef&#x3D;&quot;let row; columns: displayedNormalColumns;&quot;&gt;&lt;/tr&gt;
+
+                &lt;/table&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./user-management.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><app-breadcrumb></app-breadcrumb><section class="site-content" id="skip-to-content">    <div class="container">        <div class="row">            <div class="col-md-12">                <h1 class="page-header">Admin Users</h1>                <table mat-table [dataSource]=\'adminUsersSource\'                    class="table table-striped table-bordered datatables-example">                    <ng-container matColumnDef="name">                        <th mat-header-cell *matHeaderCellDef> Name </th>                        <td mat-cell *matCellDef="let element"> {{element.firstName}}&nbsp;{{element.lastName}}</td>                    </ng-container>                    <ng-container matColumnDef="association">                        <th mat-header-cell *matHeaderCellDef> Association </th>                        <td mat-cell *matCellDef="let element"> {{element.association | uppercase}} </td>                    </ng-container>                    <ng-container matColumnDef="email">                        <th mat-header-cell *matHeaderCellDef> Emails </th>                        <td mat-cell *matCellDef="let element"> {{element.email}} </td>                    </ng-container>                    <ng-container matColumnDef="edit">                        <!-- <th mat-header-cell *matHeaderCellDef>                            <button class="btn btn-crimson" data-toggle="modal"                                data-target=".modal-new-measure" (click)="onAdd()">+</button>                        </th> -->                        <td mat-cell *matCellDef="let element">                            <!-- <p style="margin: 0px">                                <strong style="margin-right:10px; font-size:1.5em;"><a data-toggle="modal" data-target=".modal-new-measure" (click)="editMeasure(element)"><i class="fa fa-pencil-square-o" alt="edit"></i></a></strong>                                <a style="font-size:1.5em" (click)="deleteMeasure(element)"><i class="fa fa-trash-o" alt="Delete"></i></a>                            </p> -->                        </td>                    </ng-container>                    <tr mat-header-row *matHeaderRowDef="displayedAdminColumns"></tr>                    <tr mat-row *matRowDef="let row; columns: displayedAdminColumns;"></tr>                </table>            </div>        </div>    </div></section><section class="site-content" id="skip-to-content">    <div class="container">        <div class="row">            <div class="col-md-12">                <h1 class="page-header">Normal Users</h1>                <table mat-table [dataSource]=\'normalUsersSource\'                    class="table table-striped table-bordered datatables-example">                    <ng-container matColumnDef="name">                        <th mat-header-cell *matHeaderCellDef> Name </th>                        <td mat-cell *matCellDef="let element"> {{element.firstName}}&nbsp;{{element.lastName}}</td>                    </ng-container>                    <ng-container matColumnDef="association">                        <th mat-header-cell *matHeaderCellDef> Association </th>                        <td mat-cell *matCellDef="let element"> {{element.association | uppercase}} </td>                    </ng-container>                    <ng-container matColumnDef="email">                        <th mat-header-cell *matHeaderCellDef> Emails </th>                        <td mat-cell *matCellDef="let element"> {{element.email}} </td>                    </ng-container>                    <ng-container matColumnDef="edit">                        <th mat-header-cell *matHeaderCellDef>                            Edit User                            <!-- <button class="btn btn-crimson" data-toggle="modal"                                data-target=".modal-new-measure" (click)="onAdd()">Make Admin</button> -->                        </th>                        <td mat-cell *matCellDef="let element">                            <p style="margin: 0px">                                <button class="btn btn-crimson" data-toggle="modal"                                data-target=".modal-new-measure" (click)="onMakeAdmin(element)">Make Admin</button>                                &nbsp;                                <a style="font-size:1.5em" (click)="onDelete(element)"><i class="fa fa-trash-o" alt="Delete"></i></a>                            </p>                        </td>                    </ng-container>                    <tr mat-header-row *matHeaderRowDef="displayedNormalColumns"></tr>                    <tr mat-row *matRowDef="let row; columns: displayedNormalColumns;"></tr>                </table>            </div>        </div>    </div></section></div>'
+    var COMPONENTS = [{'name': 'AboutPageComponent', 'selector': 'app-about-page'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminHomeComponent', 'selector': 'app-home'},{'name': 'AdminNavigationComponent', 'selector': 'app-navigation'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArchiveManagementComponent', 'selector': 'app-archive-management'},{'name': 'AssociateListComponent', 'selector': 'app-associate-list'},{'name': 'AssociatesComponent', 'selector': 'app-associates'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CarouselComponent', 'selector': 'app-carousel'},{'name': 'ClickIconComponent', 'selector': 'app-click-icon'},{'name': 'CommunityPageComponent', 'selector': 'app-community-page'},{'name': 'ContactFormComponent', 'selector': 'app-contact-form'},{'name': 'CTAComponent', 'selector': 'app-cta'},{'name': 'ExLinkComponent', 'selector': 'app-ex-link'},{'name': 'FacultyStaffComponent', 'selector': 'app-faculty-staff'},{'name': 'GivingPageComponent', 'selector': 'app-giving-page'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'IconBoxComponent', 'selector': 'app-icon-box'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MeasureDetailsComponent', 'selector': 'app-measure-details'},{'name': 'MeasuresComponent', 'selector': 'app-measures'},{'name': 'MembersHomeComponent', 'selector': 'app-home'},{'name': 'MembersNavigationComponent', 'selector': 'app-navigation'},{'name': 'MembersNewsComponent', 'selector': 'app-news'},{'name': 'MembersNewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NavigationComponent', 'selector': 'app-navigation'},{'name': 'NewscardComponent', 'selector': 'app-newscard'},{'name': 'NewsDetailsComponent', 'selector': 'app-news-details'},{'name': 'NewsPageComponent', 'selector': 'app-news-page'},{'name': 'PageLinksComponent', 'selector': 'app-page-links'},{'name': 'PeoplePageComponent', 'selector': 'app-people-page'},{'name': 'ProfileVerifyComponent', 'selector': 'app-profile-verify'},{'name': 'RouterOutletComponent', 'selector': 'app-router-outlet'},{'name': 'SeminarPageComponent', 'selector': 'app-seminar-page'},{'name': 'SiteManagementComponent', 'selector': 'app-sitemanagement'},{'name': 'StudentListComponent', 'selector': 'app-student-list'},{'name': 'TopLinkComponent', 'selector': 'app-top-link'},{'name': 'UserManagementComponent', 'selector': 'app-user-management'},{'name': 'VerifyEmailComponent', 'selector': 'app-verify-email'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'UserManagementComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'UserManagementComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
